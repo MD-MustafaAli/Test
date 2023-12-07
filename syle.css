@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background: url(ai-generated-7787717_1280.jpg);
+    background: cover;
+}
+
+#Main-Container{
+    background-color: rgba(0, 128, 0, 0);
+    margin: 200px auto;
+    height:250px;
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 30px;
+color: white;
+
+
+}
+
+
+#Main-Container h1{
+    text-align: center;
+    padding: 30px;
+
+}
+
+
+
+#second-ccontainer{
+   
+    padding: 0px 50px ;
+    display: flex;
+    gap: 20px;
+}
+
+
+#inputBox{
+    padding-left: 20px;
+    border-radius: 30px;
+    height: 50px;
+    width: 450px;
+outline: none;
+border: none;
+
+
+}
+
+#Add-Btn{
+   
+    padding: 4px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(40, 212, 255);
+    color: rgb(8, 8, 8);
+        
+}
+
+#listContainer{
+list-style-type: none;
+padding: 40px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+#listContainer li {
+    padding: 5px;
+    background-color: aqua;
+border-radius: 10px;
+color: black;
+padding-left: 20px;
+
+}
+
+
+#listContainer li span{
+    height: 70px;
+    width: 80px;
+    right: 0px;
+    margin-left: 250px;
+    padding: 10px;
+    border-radius: 100%;
+    }
+
+#listContainer li span:hover{
+    background-color: red;
+    color: white;
+}
+
+
+.checked{
+    text-decoration: line-through;
+}
+
+#listContainer li:hover{
+    box-shadow: 2px 2px 2px 50px rgb(white, white, white);
+}
